@@ -20,6 +20,9 @@ img{
 .align-center{
   align-items: center;
 }
+.justify-center{
+  justify-content: center;
+}
 .between{
   justify-content: space-between;
 }
@@ -41,11 +44,24 @@ img{
 .width-50{
   width: 50%;
 }
+h1{
+  text-align: center;
+}
+p{
+  text-align: center;
+}
+
 .padding-top{
   padding-top: 20px;
 }
 .padding-bottom-big{
   padding-bottom: 100px;
+}
+.column{
+  flex-direction: column;
+}
+.heigth-280{
+  height: 280px;
 }
 .container{
   width: 98%;
@@ -70,25 +86,19 @@ ul li{
 .flex-wrap{
   flex-wrap: wrap;
 }
-.col-one{
-  height: 350px;
-  border-radius: 10%;
-  margin: 5px;
-  background-color: #0B5AA2;
+
  /* heigth di debug */
-}
-.col-two{
-  height: 350px;
-  border-radius: 10%;
-  margin: 5px;
-  background-color: #0B5AA2;
+
+
   /* heigth di debug */
-}
+
 .col{
   height: 350px;
   background-color: #0B5AA2;
   margin: 5px;
   border-radius: 10%;
+  padding-left: 1rem;
+    padding-right: 1rem;
 }
 section .demo{
   background-color: ;
@@ -96,6 +106,8 @@ section .demo{
 .row{
   display: flex;
   flex-wrap: wrap;
+  padding-top: 50px;
+  padding-bottom: 100px;
 }
 .card{
   position: relative;
@@ -104,4 +116,7 @@ section .demo{
   position: absolute;
   bottom: 10px;
   left: 0;
+}
+.planning{
+  background-color: #9792E4;
 }
