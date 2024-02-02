@@ -149,57 +149,147 @@ footer{
     flex-direction: row;
     padding: 30px 0 90px;
     height: 1200px;
+    }
+    .jumbo .col-big{
+      width: 66%;
+    }
+    .jumbo .col{
+      width: 33%;
+    }
+    .strategic-planning{
+      height: 2000px;
+    }
+    .strategic-planning .row{
+      height: 1000px;
+    }
+    .strategic-planning .col {
+      heigth: 100%
+    }
+    .testimonials .row .col{
+      height: 310px;
+    }
+    .benefits{
+      height: 1500px;
+    }
+    .benefits .container{
+      height: 100%;
+    }
+    .benefits .row{
+      display: flex;
+      flex-wrap: wrap;
+      align-items:center;
+    }
+    .benefits .col{
+      width: 50%;
+      height: 430px;
+    }
+    .about{
+      height: 1100px;
+    }
+    .about .row{
+      display: flex;
+      flex-wrap: wrap;
+    }
+    .about .col-big{
+      width: 60%;
+      height: 830px;
+    }
+    .about .col{
+      height: 520px;
+      width: 40%;
+    }
+    .free .container{
+      width: 85%;
+    }
+      
+  
+
+@media screen and (min-width:1200px){
+  header .container{
+    width: 1140px;
   }
-  .jumbo .col-big{
-    width: 66%;
+  .list-nav{
+    display: block;
+    height: 100%;
+    width: 60%;
+    justify-content: space-between;
   }
-  .jumbo .col{
-    width: 33%;
+  .hamburger{
+    display: none;
+  }
+  .list-nav ul{
+    align-items: center;
+    justify-content: space-between;
+  }
+  .list-nav ul li{
+    color: white;
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    
+  }
+  .jumbo .container{
+    width: 1140px;
+    margin: 0 auto;
+    height: 870px;
+  }
+  .jumbo .row{
+    height: 870px;
+
+  }
+  .row .col{
+    height: 360px;
   }
   .strategic-planning{
-    height: 2000px;
+    height: 930px;
   }
-  .strategic-planning .row{
-    height: 1000px;
+  .strategic-planning .container{
+    height: 100%;
+    margin: 50px 100px;
+    display: flex;
+    justify-content:center ;
+    width: 1140px;
   }
-  .strategic-planning .col {
-    heigth: 100%
-  }
-  .testimonials .row .col{
-    height: 310px;
-  }
-  .benefits{
-    height: 1500px;
-  }
-  .benefits .container{
+  .strategic-planning .container .row{
     height: 100%;
   }
-  .benefits .row{
-    display: flex;
-    flex-wrap: wrap;
-    align-items:center;
+  .strategic-planning .col{
+    height: 100%;
+    width: 440px;
+  }
+  /* da vedere qua modifica */
+  .testimonials .container{
+    width: 1140px;
+    margin: 0 auto;
+  }
+  .benefits{
+    height: 1090px;
+  }
+  .benefits .container{
+    width: 1140px;
+    margin: 0 auto;
   }
   .benefits .col{
-    width: 50%;
+    width: 30%;
     height: 430px;
   }
   .about{
-    height: 1100px;
-  }
-  .about .row{
-    display: flex;
-    flex-wrap: wrap;
-  }
-  .about .col-big{
-    width: 60%;
     height: 830px;
   }
+  .about .container{
+    width: 1140px;
+    margin: 0 auto;
+  }
+  .about .col-big{
+    width: 70%;
+    height: 630px;
+  }
   .about .col{
-    height: 520px;
-    width: 40%;
+    width: 520px;
+    width: 30%;
+
   }
   .free .container{
-    width: 85%;
+    width: 50%;
   }
 }
-@media
