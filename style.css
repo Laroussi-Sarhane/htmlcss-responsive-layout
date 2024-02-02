@@ -1,8 +1,18 @@
+:root{
+  --nav-color: #0084fd;
+  --col-color: #b5ddff;
+  --primary-color: #9593e6;
+  --free-color: #fdc15f;
+  --footer-color:#333333;
+  --p:#677f93;
+}
+
 *{
   margin:0;
   padding: 0;
   box-sizing: border-box;
 }
+
 body{
   font-family: 'PT Sans', sans-serif;
 }
@@ -31,7 +41,20 @@ header,
   width: 100%;
   margin: 0 auto;
 }
+.card{
+  width: 90%;
+  height: 90%;
+}
 
+.column{
+  flex-direction: column;
+}
+.btn{
+  background-color: var(--nav-color);
+  padding: 10px 40px;
+  border-radius: 20px;
+  max-width: 200px;
+}
 .row{
   display: flex;
   flex-wrap: wrap;
@@ -42,15 +65,57 @@ header{
 .title{
   color: #0084FD;
 }
-.card .card-img{
-  position: relative;
+.border{
+  border-radius: 10px;
+  background-color: #B5DDFF;
+}
+.color-h2{
+  color: var(--nav-color);
 }
 
-.card-text{
-  padding-left: 20px;
-  max-width: 360px;
+.p{
+  font-weight: 510;
+  color: var(--p);
 }
 
+.row{
+  flex-direction: column;
+}
+.image-1{
+  width: 200px;
+  margin: 0 auto;
+}
+.text{
+  height: 100%;
+  width: 100%;
+  margin-bottom:40px;
+  padding: 35px 20px;
+}
+
+.text a{
+  text-decoration: none;
+  color: white;
+}
+
+.card-small{
+  padding:35px 20px;
+  text-align: center;
+}
+
+
+
+.icon{
+  font-size: 6rem;
+  margin-bottom: 20px;
+  color: var(--nav-color);
+}
+
+.card-small h2{
+  padding-bottom: 38px;
+}
+.card-small p{
+  line-height: 25px;
+}
 .btn{
   text-decoration: none;
   padding: 5px 13px;
@@ -58,31 +123,6 @@ header{
   background-color: #C6C6C6;
   box-shadow: #C6C6C6;
   color: black;
-}
-.btn-big{
-  text-decoration: none;
-  padding: 10px 20px;
-  border-radius: 20px;
-  background-color:#0084FD;
-  box-shadow: #C6C6C6;
-  color: black;
-  text-align: center;
-}
-.relative{
-  position: relative;
-}
-.img-1{
-  height: 270px;
-  width: 200px;
-}
-.immagine-phone{
-  bottom: -20PX;
-  right: 100px;
-}
-
-.vw{
-  font-size: 3vw;
-
 }
 .col{
   width: 100%;
@@ -93,17 +133,84 @@ header{
   height: 340px;
   
 }
-.card-text-box1{
-  width: 370px;
-  height: 340px;
+.strategic .col{
+  margin: 0 30px;
+}
+.strategic .col.violet{
+  color: white;
+  background-color: var(--primary-color);
+}
 
+.col.violet h2{
+  margin-top: 80px;
+  margin-bottom: 55px;
+  font-size: 2rem;
 }
-.flex-wrap{
-  flex-wrap: wrap;
+
+.col.violet p,
+.white p{
+  line-height: 25px;
+  margin-bottom: 35px;
 }
-.padding-top{
-  padding-top: 20px;
+
+.strategic .text{
+align-items: center;
 }
+
+.white{
+  background-color: white;
+  text-align: center;
+  border-radius: 50px;
+}
+
+.white .image{
+  justify-content: center;
+  width: 250px;
+  margin-bottom: 30PX;
+}
+
+.white h2{
+  margin-bottom: 30px;
+}
+.testimonials .caption{
+  padding: 70px 40px 0;
+  margin-bottom: 50px;
+}
+
+.testimonials .caption h2{
+  font-size: 2rem;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  color: var(--primary-color);
+}
+
+.testimonials .card{
+  color: white;
+  margin-bottom: 30px;
+  align-items: center;
+  padding: 30px 20px 35px;
+  border-radius: 40px;
+  background-color: var(--primary-color);
+}
+
+
+.testimonials .image{
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  margin-bottom: 25px;
+}
+.testimonials .image img{
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.testimonials .card p{
+  line-height: 25px;
+  margin-bottom: 35px;
+}
+
+
 nav ul{
   text-decoration: none;
   color: white;
